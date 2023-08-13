@@ -26,7 +26,7 @@ public class LongestCommonPrefix {
                 if(j == indexShortestWord){
                     continue;
                 }
-                if(!(c == strs[j].charAt(i))){
+                if(c != strs[j].charAt(i)){
                     flag = false;
                 }
             }
